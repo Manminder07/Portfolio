@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Manminder Singh</div>
+                <div class="menu" id="menu">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2099/2099192.png" alt="Menu" />
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li class="dropdown">
+                        <a href="#projects">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#project1">Project 1</a></li>
+                            <li><a href="#project2">Project 2</a></li>
+                            <li><a href="#project3">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a Full-Stack Web Developer, passionate about building websites.</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm <span style="font-family: Arial; font-weight: Bold">Manminder Singh</span>, a [brief description]. I have experience in [skills or background]. When I'm not working, I enjoy [hobbies].</p>
+                    <p>Feel free to explore my projects and get in touch!</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x400" alt="Your Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Skill 1</h3>
+                    <p>Description of skill 1.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Skill 2</h3>
+                    <p>Description of skill 2.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Skill 3</h3>
+                    <p>Description of skill 3.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Skill 4</h3>
+                    <p>Description of skill 4.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item" id="project1">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1. <a href="#">View Project</a></p>
+                </div>
+                <div class="project-item" id="project2">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2. <a href="#">View Project</a></p>
+                </div>
+                <div class="project-item" id="project3">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3. <a href="#">View Project</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Manminder Singh. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
